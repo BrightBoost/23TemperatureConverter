@@ -73,3 +73,13 @@ function onClearCtoFClick() {
     fahrenheitConverted.value = "";
     inputError.innerHTML = "";
 }
+
+function onClearFtoCClick() {
+    const fahrenheitInput = document.getElementById("fahrenheitInput");
+    const celsiusConverted = document.getElementById("celsiusConverted");
+    const inputError = document.getElementById("inputError");
+
+    fahrenheitInput.value = "";
+    celsiusConverted.value = "";
+    inputError.innerHTML = "";
+}
